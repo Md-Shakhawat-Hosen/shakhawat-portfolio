@@ -1,0 +1,206 @@
+* {
+  border: 0;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* navbar section start */
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  /* background-color: aqua; */
+}
+.menu-bar {
+  display: flex;
+  align-items: center;
+}
+.menu-bar ul {
+  display: flex;
+  align-items: center;
+}
+.menu-bar ul li {
+  padding: 10px 20px;
+  list-style: none;
+}
+.menu-bar ul li a {
+  text-decoration: none;
+  color: black;
+}
+.btn-primary {
+  padding: 10px 20px;
+  background-color: #fd6e0a;
+  color: white;
+  font-weight: bold;
+}
+.especial {
+  color: #fd6e0a;
+}
+.nav-title {
+  color: #181818;
+  font-family: Open Sans;
+  font-size: 85px;
+  font-weight: 700;
+}
+.hi {
+  color: #474747;
+  font-family: Open Sans;
+  font-size: 45px;
+  font-weight: 600;
+}
+/* navbar section end */
+
+/* banner section start */
+.banner-container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 10px 0px 150px;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  /* margin-top: 50px; */
+  /* background-color: aqua; */
+}
+header {
+  background-image: url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.right-content img {
+  margin-bottom: -225px;
+}
+.left-content {
+  width: 500px;
+}
+.right-content {
+  width: 500px;
+}
+/* banner section end */
+
+/* about section start */
+.about {
+  background-color: #fff8f3;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 130px;
+}
+.about-info {
+  padding: 130px 157px;
+}
+.about-content-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.about-para,
+.common {
+  margin: 30px 0px 30px 0px;
+  color: #757575;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+/* about section end */
+
+/* what i do section start */
+.what-i {
+  width: 80%;
+  margin: auto;
+  margin-top: 130px;
+}
+.what-info {
+  text-align: center;
+}
+.skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 24px;
+}
+.skill img {
+  margin-bottom: 30px;
+}
+.skill {
+  padding: 33px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/* what i do section end */
+
+/* resume section start */
+.resume-summary{
+    margin-top: 130px;
+}
+.title-resume{
+    text-align: center;
+}
+.resume{
+    /* margin-top: 130px; */
+    width: 80%;
+    margin: auto;
+}
+.summary{
+    gap:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 113px;
+}
+.part-1{
+    width: 80%;
+    margin-bottom: 30px;
+    color: #757575;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.tt{
+    margin-bottom: 30px;
+}
+.new{
+    cursor: pointer;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* resume section end */
+
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    height: 80vh;
+    padding-top: 130px;
+}
+.footer-content{
+    display: flex;
+    gap: 50px;
+    justify-content:space-around;
+}
+.footer-left-content{
+    width: 400px;
+}
+
+input,textarea{
+    width: 80%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: 0;
+    outline: 0;
+}
+.me{
+    margin-bottom: 28px;
+}
+.me-des{
+    margin-bottom: 30px;
+}
+.icons img{
+    margin-right: 24px;
+}
